@@ -54,16 +54,16 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: true
+  powered: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
     version: false
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: 备案号：<a href='http://www.miitbeian.gov.cn' rel='external nofollow' target='_blank'>鲁ICP备16050377号-2</a>
+  custom_text: <a href='http://www.miitbeian.gov.cn' rel='external nofollow' target='_blank'>鲁ICP备16050377号-2</a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -226,7 +226,7 @@ post_wordcount:
   item_text: true
   wordcount: true
   min2read: true
-  totalcount: true
+  totalcount: false
   separated_meta: true
 
 # Wechat Subscriber
@@ -445,14 +445,14 @@ needmoreshare2:
   postbottom:
     enable: false
     options:
-      iconStyle: box
+      iconStyle: default
       boxForm: horizontal
       position: bottomCenter
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
   float:
-    enable: false
+    enable: true
     options:
-      iconStyle: box
+      iconStyle: default
       boxForm: horizontal
       position: middleRight
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
