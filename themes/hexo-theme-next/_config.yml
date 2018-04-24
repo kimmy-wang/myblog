@@ -99,7 +99,7 @@ menu:
   about: /about/ || user
 #  schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-#  commonweal: /404/ || heartbeat
+  commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -206,13 +206,14 @@ scroll_to_more: true
 save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
-excerpt_description: true
+excerpt_description: false
 
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: false
-  length: 150
+#  lines: 5
+  length: 300
 
 # Post meta display settings
 post_meta:
