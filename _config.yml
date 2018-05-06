@@ -8,7 +8,10 @@ subtitle:
 description:
 keywords:
 author: 英仔
-language: zh-Hans
+language:
+  - zh-Hans
+  - zh-tw
+  - en
 timezone:
 
 # URL
