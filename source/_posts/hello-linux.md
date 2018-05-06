@@ -5,7 +5,6 @@ categories:
 tags:
 - Linux
 ---
-centOS7在VirtualBox中装好后的网络连接问题
 
 ## 解决办法
 
