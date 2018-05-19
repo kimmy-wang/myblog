@@ -15,6 +15,9 @@ tags:
 ![Alt text](/images/hello-linux/setting.png)
 
 
+<!--more-->
+
+
 ### 查看网络配置文件的名字
 
 ``` bash

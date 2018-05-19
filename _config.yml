@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 个人主页
+title: 多余的解释
 subtitle:
 description:
 keywords:
-author: 英仔
+author: 多余的解释
 language:
   - zh-Hans
   - zh-tw
@@ -77,6 +77,12 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-magic
+
+# hexo-admin authentification
+admin:
+  username: admin
+  password_hash: $2a$10$EYU3xNYspY94aH9cT/Jwie01H6VPz3SwaNiuMO1y3LZmWf3dDXB4m
+  secret: :$apr1$HKtvWwOK$TFiZVhPqiPDHFvL3vPBGQ/
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
