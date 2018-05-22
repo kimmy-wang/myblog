@@ -1,5 +1,6 @@
 ---
 title: centOS7在VirtualBox中装好后的网络连接问题
+date: 2018-05-19 9:23:35
 categories:
 - 操作系统
 tags:
