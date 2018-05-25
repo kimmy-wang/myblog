@@ -9,8 +9,7 @@ description:
 keywords:
 author: 多余的解释
 language:
-  - zh-Hans
-  - zh-tw
+  - zh-CN
   - en
 timezone:
 
@@ -76,7 +75,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-magic
+theme: hexo-theme-magic-new
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
 
 # hexo-admin authentification
 admin:
