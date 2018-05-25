@@ -83,6 +83,23 @@ symbols_count_time:
   total_symbols: true
   total_time: true
 
+search:
+  # path - file path. By default is search.xml . If the file extension is .json, the output format will be JSON. Otherwise XML format file will be exported.
+  path: search.xml
+  # field - the search scope you want to search, you can chose:
+  #  post (Default) - will only covers all the posts of your blog.
+  #  page - will only covers all the pages of your blog.
+  #  all - will covers all the posts and pages of your blog.
+  field: all
+  # format - the form of the page contents, works with xml mode, options are:
+  #  html (Default) - original html string being minified.
+  #  raw - markdown text of each posts or pages.
+  #  excerpt - only collect excerpt.
+  #  more - act as you think.
+  format: html
+  #limit - define the maximum number of posts being indexed, always prefer the newest.
+  limit: 10000
+
 # hexo-admin authentification
 admin:
   username: admin
