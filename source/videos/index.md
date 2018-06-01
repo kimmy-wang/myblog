@@ -4,23 +4,10 @@ date: 2018-05-26 22:22:36
 type: "films"
 films:
  - {
- title: 视频1, 
- date: 2017-08-01, 
- desc: 多余的解释,
+ title: 《青岛》MV, 
+ date: 2018-06-01, 
+ desc: 红瓦绿树、碧海蓝天向您张开了怀抱，青岛欢迎您！,
  videos: 
-   [{title: 陈一发儿，《给自己的歌》, type: douyu, cover: https://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg, video: https://v.douyu.com/show/3rob7jbNag37gkZl},
-    {title: 视频描述, cover: https://farm8.staticflickr.com/7367/16426879675_e32ac817a8_b.jpg, video: https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4},
-    {title: 视频描述, cover: https://farm6.staticflickr.com/5612/15344856989_449794889d_b.jpg, video: https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4},
-    {title: 视频描述, cover: https://farm8.staticflickr.com/7289/16207238089_0124105172_b.jpg, video: https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4}]
+   [{title: 红瓦绿树、碧海蓝天向您张开了怀抱，青岛欢迎您！, cover: https://cdn.upcwangying.com/videos/20180601/8102b22a5e81e840176d9f381ec6f837.png, video: https://cdn.upcwangying.com/videos/20180601/8102b22a5e81e840176d9f381ec6f837.mp4}]
  }
- - {
-  title: 视频2, 
-  date: 2018-05-20, 
-  desc: 我只是一段不起眼的描述,
-  videos: 
-    [{title: 视频描述, cover: https://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg, video: https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4},
-     {title: 视频描述, cover: https://farm8.staticflickr.com/7367/16426879675_e32ac817a8_b.jpg, video: https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4},
-     {title: 视频描述, cover: https://farm6.staticflickr.com/5612/15344856989_449794889d_b.jpg, video: https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4},
-     {title: 视频描述, cover: https://farm8.staticflickr.com/7289/16207238089_0124105172_b.jpg, video: https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4}]
-  }
 ---
