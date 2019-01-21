@@ -1,7 +1,5 @@
 # Blog
 
-hexo clean
-
-hexo g && gulp
-
-hexo d
+```text
+hexo clean && hexo g && gulp && hexo d
+```

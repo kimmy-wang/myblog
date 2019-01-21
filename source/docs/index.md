@@ -28,7 +28,7 @@ date: 2018-05-09 10:52:25
 [ESLint](https://eslint.bootcss.com/)
 
 <font color=Darkorange size=4>框架</font>
-[Vuejs中文文档](https://cn.vuejs.org/v2/api/) | [React中文文档](https://www.reactjscn.com/) | [React中文文档](https://www.reactjscn.com/) | [AngularJS中文文档](http://www.angularjs.net.cn/)
+[Vuejs中文文档](https://cn.vuejs.org/v2/api/) | [React中文文档](https://react.docschina.org/) | [AngularJS中文文档](http://www.angularjs.net.cn/)
 
 <font color=Darkorange size=4>组件库</font>
 [iView](https://www.iviewui.com/) | [Element](http://element-cn.eleme.io/#/zh-CN) | [Ant Design](https://ant.design/index-cn) | [Cube UI](https://didi.github.io/cube-ui/#/zh-CN) | [mpvue](http://mpvue.com/)
@@ -43,12 +43,7 @@ date: 2018-05-09 10:52:25
 [es6](https://es6.upcwangying.com/) | [PostCSS](https://www.postcss.com.cn/) | [Font Awesome中文网](http://www.fontawesome.com.cn/faicons/) | [Bootstrap可视化布局系统](http://www.bootcss.com/p/layoutit/) | [normalize.css](https://github.com/necolas/normalize.css/)
 
 <font color=Darkorange size=4>Node.js</font>
-[Nodejs中文文档](http://nodejs.cn/api/) | [egg中文文档](https://eggjs.org/zh-cn/index.html) | [express中文文档](http://expressjs.com/zh-cn/) | [axios](https://github.com/axios/axios)
+[Nodejs中文文档](http://nodejs.cn/api/) | [Koa英文文档](https://koajs.com/) | [egg中文文档](https://eggjs.org/zh-cn/index.html) | [express中文文档](http://expressjs.com/zh-cn/) | [axios](https://github.com/axios/axios)
 
 <font color=Darkorange size=4>工具</font>
 [Nginx中文文档](http://www.nginx.cn/doc/) | [Git中文文档](https://git-scm.com/book/zh/v2) | [Docker中文文档](https://docs.docker-cn.com/) | [Markdown中文文档](http://www.markdown.cn/)
-
-<font color=Darkorange size=4>Vue项目</font>
-[QQ播放器](https://music.upcwangying.com/) | [网易播放器(开发中)](https://netease.upcwangying.com/) | [饿了么(开发中)](https://eleme.upcwangying.com/)
-
-<font color=Darkorange size=4>React项目</font>
