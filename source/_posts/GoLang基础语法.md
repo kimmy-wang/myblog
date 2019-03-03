@@ -26,6 +26,8 @@ func main() {
 Hello World
 ```
 
+<!--more-->
+
 ### 变量默认值
 ```go
 package main
