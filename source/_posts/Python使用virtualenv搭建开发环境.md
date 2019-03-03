@@ -28,9 +28,10 @@ pip install -r requirement.txt
 例如: 
 ```bash
 pip install -i https://pypi.douban.com/simple/ virtualenv
-
+```
+or
+```bash
 pip install -i https://pypi.douban.com/simple/ -r requirement.txt
-
 ```
 
 
