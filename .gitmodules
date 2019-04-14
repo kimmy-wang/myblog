@@ -1,3 +1,3 @@
-[submodule "themes/hexo-theme-magic-new"]
-	path = themes/hexo-theme-magic-new
-	url = https://gitee.com/upcwangying/hexo-theme-magic-new.git
+[submodule "themes/myblog-theme-next"]
+	path = themes/myblog-theme-next
+	url = git@upcwangying.github.com:upcwangying/myblog-theme-next.git
