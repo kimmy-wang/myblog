@@ -1,0 +1,42 @@
+name: Deploy
+
+on:
+  release:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+      with:
+        repository: upcwangying/myblog
+        submodules: recursive
+        token: ${{ secrets.deploy }}
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Clean
+      uses: heowc/action-hexo@master
+      with:
+        args: clean
+    - name: Generate
+      uses: heowc/action-hexo@master
+      with:
+        args: generate
+    - name: Deploy
+      uses: heowc/action-hexo@master
+      env:
+        EMAIL: upcwangying@126.com
+        NAME: upcwangying
+      with:
+        args: deploy
