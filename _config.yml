@@ -103,8 +103,9 @@ search:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-#deploy:
-#  type: git
-#  repo: https://github.com/upcwangying/upcwangying.github.io.git
-#  branch: dev
-
+deploy:
+  type: git
+  name: upcwangying
+  email: upcwangying@126.com
+  repo: git@upcwangying.github.com:upcwangying/upcwangying.github.io.git
+  branch: dev
