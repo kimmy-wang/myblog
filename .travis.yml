@@ -15,7 +15,7 @@ git:
 
 before_install:
   - git clone --depth=50 --branch=master https://github.com/upcwangying/myblog.git upcwangying/myblog
-  - cd upcwangying/myblog && sed -i "s/upcwangying.//g" ./.gitmodules && git submodule update --init --recursive
+  - cd upcwangying/myblog && sed -i "s/git@upcwangying.github.com:upcwangying\/myblog-theme-next.git/https:\/\/github.com\/upcwangying\/myblog-theme-next.git/g" ./.gitmodules && git submodule update --init --recursive
   - yarn global add hexo-cli
 
 install:
