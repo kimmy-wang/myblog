@@ -10,7 +10,12 @@ branches:
   only:
     - master
 
+git:
+  clone: false
+
 before_install:
+  - git clone --depth=50 --branch=master https://github.com/upcwangying/myblog.git upcwangying/myblog
+  - cd upcwangying/myblog && sed -i "s/upcwangying.//g" ./.gitmodules && git submodule update --init --recursive
   - yarn global add hexo-cli
 
 install:
@@ -32,10 +37,3 @@ deploy:
   on:
     branch: master
   local_dir: public
-
-#after_script:
-#  - git config --global user.name "upcwangying"
-#  - git config --global user.email "upcwangying@126.com"
-#  - sed -i "s/github_token/${GITHUB_TOKEN}/g" ./_config.yml
-#  - cat ./_config.yml
-#  - hexo deploy
