@@ -101,11 +101,11 @@ search:
   #limit - define the maximum number of posts being indexed, always prefer the newest.
   limit: 10000
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  name: upcwangying
-  email: upcwangying@126.com
-  repo: git@upcwangying.github.com:upcwangying/upcwangying.github.io.git
-  branch: dev
+## Deployment
+### Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  name: upcwangying
+#  email: upcwangying@126.com
+#  repo: git@upcwangying.github.com:upcwangying/upcwangying.github.io.git
+#  branch: dev

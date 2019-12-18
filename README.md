@@ -1,5 +1,3 @@
 # Blog
 
-```text
-hexo clean && hexo g && gulp && hexo d
-```
+![Travis (.org)](https://img.shields.io/travis/upcwangying/myblog)
